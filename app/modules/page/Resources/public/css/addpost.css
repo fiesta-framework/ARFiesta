@@ -1,0 +1,52 @@
+#mceu_13{
+	border-width: 0px !important;
+}
+#textarea{
+	margin: 0px;
+    padding: 1px;
+}
+.inputcls{
+    height: 57px !important;
+    font-size: 36px !important;
+    font-weight: 300;
+}
+.slug{
+    background: transparent;
+    border: 0px;
+    color: #9ea7b3!important;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 6px 7px;
+}
+.nav-tabs > li > a {
+    border: 0px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: 0px solid #ddd;
+    background-color: #fff !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #fff !important;
+}
+.tagsinput {
+    min-height: auto !important;
+    height: auto !important;
+}
+.list li {
+    height: 24px;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu.pull-right ul {
+    padding-left: 0px;
+}
+li.picker-switch.accordion-toggle i {
+    font-style: initial;
+    padding-left: 3%;
+    font-size: 15px;
+}
+table.table-condensed td {
+    text-align: center;
+}

@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'segoe';
+  src: url('../fonts/segoeuil.ttf') format('truetype');
+}
+
+body
+{
+	padding:0px;
+	margin:0px;
+	background: rgba(169, 161, 114, 0.12);
+	font-family: "segoe";
+}
+
+.img
+{
+	width:260px;
+	margin:0pt auto;
+	display:block;
+	margin-top: 30px;
+}
+
+.config_logo
+{
+	margin: 12px auto;
+}
+
+#welcom
+{
+	opacity:0;
+	color:white;
+	text-align: center;
+	/*font-family: 'Lato', sans-serif;*/
+	width:600px;
+	margin: 0px auto;
+	color: #4F4F4F;
+}
+.text
+{
+	background: transparent;
+	display: inline-block;
+	z-index: 3;
+	/*width: 145px;*/
+	font-size: 32px;
+}
+
+.bottom_panel
+{
+	opacity: 0;
+	height: 75px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	padding: 20px;
+	text-align: right;
+}
+
+.hello_button
+{
+	background-color: #A9A172;
+	color: #fff;
+	transition: all 150ms ease-in;
+}
+
+.hello_button:hover
+{
+	background-color: rgba(169, 161, 114, 0.6);
+	color:#fff;
+}
+
+.config_form
+{
+	color: #A9A172;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.config_input
+{
+	background-color: rgba(255,255,255,.8);
+}
+
+.control_c_row
+{
+	margin: 7px 0px;
+}
+
+.conf_lab
+{
+	display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.conf_input
+{
+	display: inline-block;
+	margin: 0px 10px;
+	width: 60%;
+	vertical-align: top;
+}
+
+
+.bottonn
+{
+	/*opacity: 0;*/
+	height: 75px;
+	width: 100%;
+	padding: 20px;
+	text-align: right;
+}
+
+.conf_input_note
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+.conf_title
+{
+	text-align: center;
+	color: #A9A172;
+	margin: 0 0 13px 0;
+}
+
+.progres
+{
+	background-color: rgba(255,255,255,.5);
+	height:5px;
+	width: 100px;
+	margin: 0pt Auto 18px auto;
+}
+
+.progres_1
+{
+	background-color: #A9A172;
+	height:5px;
+	width: 25px;
+	margin-left: 0%
+}
+
+.progres_2
+{
+	background-color: #A9A172;
+	height:5px;
+	width: 25px;
+	margin-left: 25%
+}
+
+.progres_3
+{
+	background-color: #A9A172;
+	height:5px;
+	width: 25px;
+	margin-left: 50%
+}
+
+.progres_4
+{
+	background-color: #A9A172;
+	height:5px;
+	width: 25px;
+	margin-left: 75%
+}

@@ -1,0 +1,19 @@
+
+.intro-04-wrap .mastfoot{
+	margin-top: 0;
+}
+.intro-04 h1{
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.intro-04 h2{
+	font-style: normal;
+	font-size:  14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-top: solid 2px;
+	padding-top: 10px;
+}

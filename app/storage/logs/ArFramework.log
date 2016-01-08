@@ -1,0 +1,6 @@
+[21-Dec-2015 01:30:34 Europe/Paris] PHP Fatal error:  Cannot redeclare class Term in C:\wamp\www\ARCMS\app\modules\page\Models\term.php on line 11
+[21-Dec-2015 01:30:34 Europe/Paris] PHP Stack trace:
+[21-Dec-2015 01:30:34 Europe/Paris] PHP   1. {main}() C:\wamp\www\ARCMS\public\index.php:0
+[21-Dec-2015 01:30:34 Europe/Paris] PHP   2. require() C:\wamp\www\ARCMS\public\index.php:13
+[21-Dec-2015 01:30:34 Europe/Paris] PHP   3. ArFramework\Core\Glob\App::run() C:\wamp\www\ARCMS\bootstrap\start.php:26
+[21-Dec-2015 01:30:34 Europe/Paris] PHP   4. ArFramework\Core\Glob\App::includeFiles() C:\wamp\www\ARCMS\core\ini.php:210

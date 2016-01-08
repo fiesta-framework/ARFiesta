@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language_translation SYSTEM "../language_translation.dtd">
+<language_translation target_language="fr_FR">
+	<meta>
+	<creation author="Amine Abri" date="30/11/2015" comment="creating the core French dictionary"/>
+	</meta>
+	<translations>
+		<translation key="WELCOM" arguments="1">Bienvenue %s</translation>
+	</translations>
+</language_translation>

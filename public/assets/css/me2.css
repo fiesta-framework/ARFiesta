@@ -1,0 +1,44 @@
+.alert_bg
+{
+	  background: rgba(0,0,0,0.8);
+	  height: 100%;
+	  width: 100%;
+	  display: none;
+	  position: fixed;
+	  z-index: 1040;
+}
+
+.alert_main
+{
+	background: white;
+	border-radius: 4px;
+	padding: 21px 13px;
+	max-width: 90%;
+	min-width: 300px;
+	margin: 100px auto;
+	text-align: center;
+	width: 330px;
+}
+
+.alert_close
+{
+	padding: 5px;
+	height:31px;
+	width: 31px;
+	background: white;
+	float: right;
+	margin: -33px -27px;
+	border-radius: 22px;
+	color:#008be9;
+	border:3px solid #008be9;
+	box-shadow: -3px 3px 5px -2px rgba(30,30,30,0.5);
+	transition: all 150ms ease-in;
+}
+
+.alert_close:hover
+{
+	color:white;
+	background: #008be9;
+	box-shadow: -3px 3px 13px 2px rgba(30,30,30,0.5);
+
+}

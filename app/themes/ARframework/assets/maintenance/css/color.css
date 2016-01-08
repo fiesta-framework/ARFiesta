@@ -1,0 +1,103 @@
+/******** Colors styles *********/
+body {
+  color: #333333;
+}
+a {
+  color: #333333;
+}
+a:hover{
+  color: #5a5a5a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* General colors */
+input[type="email"], 
+input[type="text"], 
+textarea{
+  background: transparent;
+  border: 4px double #333333;
+  color: #333333;
+}
+.btn{
+  background: #333333;
+  color: #ffffff;
+  text-shadow: none;
+}
+.btn:hover{
+  background: #5a5a5a;
+  color: #ffffff;
+}
+.btn.disabled, .btn.disabled:hover{
+  background: #5a5a5a;
+  color: #ffffff;
+}
+.alert{
+  background: none;
+  border: none;
+}
+.success{
+  color: #468847;
+}
+.headline{
+  color: #ffffff;
+  border-left: 4px double #ffffff; 
+}
+/* Conter */
+.time div.item{
+  background: #ffffff;
+}
+.time .item-border{
+  border: 1px solid #ffffff;
+}
+
+/* Sidebar items colors */
+.sidebar{
+  background: #ffffff;
+}
+.modal-buttons i{
+  color: #333333;
+  box-shadow: 0 0 0 2px rgba(51,51,51,1);
+  border: 4px double #333333;
+}
+.ie8 .modal-buttons i{
+  border: none;
+  box-shadow: none;
+}
+.modal-buttons i:hover{
+  background: #333333;
+  color: #ffffff;
+  border: 4px solid #ffffff;
+}
+.ie8 .modal-buttons i:hover{
+  border: none;
+}
+.modal-buttons i:hover:after {
+  box-shadow: 3px 4px rgba(51,51,51,1);
+}
+.ie8 .modal-buttons i:hover:after{
+  box-shadow: none;
+}
+.feed .img-hover{
+  color: #ffffff;
+  background-color: #333333;
+}
+
+#contact{
+  background: #ffffff;
+  border-right: 10px solid #333333;
+}
+
+.gmap-title{
+  background: #ffffff;
+  color: #333333;
+  border-right: 10px solid #333333;
+}
+@media (max-width: 767px) { 
+  #contact{
+    border: none; 
+  }
+  .gmap-title{
+    border: none;
+  }
+}

@@ -1,0 +1,188 @@
+.white {
+  color: #ffffff;
+}
+.offwhite {
+  color: #f2f2f2;
+}
+.dark {
+  color: #343434;
+}
+.black {
+  color: #121212;
+}
+.grey {
+  color: #cccccc;
+}
+.color {
+  color: #FFE44A;
+}
+.white-bg {
+  background: #ffffff;
+}
+.offwhite-bg {
+  background: #f2f2f2;
+}
+.dark-bg {
+  background: #343434;
+}
+.black-bg {
+  background: #121212;
+}
+.grey-bg {
+  background: #cccccc;
+}
+.color-bg {
+  background: #FFE44A;
+}
+.color-trans-bg {
+  background: rgba(255, 248, 95, 0.7);
+}
+a:hover {
+  color: #FFE44A;
+}
+::selection {
+  background-color: #FFE44A;
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: #FFE44A;
+  color: #ffffff;
+}
+.sticky-border {
+  background: #ededed;
+}
+.btn-seven-color {
+  color: #FFE44A;
+  border-color: #FFE44A;
+}
+.btn-seven-color:hover {
+  background: #FFE44A;
+  border-color: #FFE44A;
+}
+.slant-bottom-white:after {
+  background: #ffffff;
+}
+.slant-bottom-offwhite:after {
+  background: #f2f2f2;
+}
+.slant-bottom-dark:after {
+  background: #343434;
+}
+.slant-bottom-color:after {
+  background: #FFE44A;
+}
+.projects a:hover {
+  color: #cccccc;
+}
+.intro-01 .projects a {
+  border-color: #FFE44A;
+}
+.intro-01 .projects a:hover {
+  border-color: #343434;
+  color: #FFE44A;
+}
+.standard-header .slogan p span {
+  border-color: #FFE44A;
+}
+.main-nav-menu a {
+  color: #ffffff;
+}
+.main-nav-menu a:hover {
+  color: #FFE44A;
+}
+.main-nav-menu li a.main-nav-link:focus {
+  border-color: #FFE44A;
+}
+.main-heading > span {
+  border-color: #FFE44A;
+}
+.sub-heading > span {
+  border-color: #FFE44A;
+}
+.feature-icon-wrap:hover {
+  border-color: #FFE44A;
+}
+.works-filter li a,
+.works-filter li a > span {
+  color: #343434;
+}
+.works-filter li a.active > span {
+  color: #FFE44A;
+}
+.works-item a:hover {
+  border-color: #FFE44A;
+  background-color: #ffffff;
+}
+.pricing-container .pricing-header,
+.pricing-container .pricing-features {
+  border-color: #ffffff;
+}
+.intro-07 .welcome h2 > span {
+  border-color: #FFE44A;
+}
+.single-project .welcome h2 {
+  border-color: #FFE44A;
+}
+.aux-icon-btn-wrap a:hover {
+  color: #ffffff;
+}
+.aux-icon-btn-wrap a:hover > span {
+  color: #ffffff;
+}
+.intro-02-sub-caps > span,
+.intro-03 h2 > span,
+.intro-04 h2,
+.works-item-inner p > span,
+.intro-08 h2 {
+  border-color: #FFE44A;
+}
+.news-list:hover h1,
+.news-list:hover p {
+  color: #ffffff;
+}
+.news-list:hover h3 {
+  color: #FFE44A;
+}
+.agency-title:hover {
+  background-color: #FFE44A;
+}
+.scroll-indicator:hover {
+  background-color: #FFE44A;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'Inconsolata', serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+.font4 {
+  font-family: 'Montserrat', serif;
+}
+body,
+p {
+  font-family: 'Inconsolata', serif;
+}
+.btn-seven {
+  font-family: 'Montserrat', serif;
+}
+.sub-nav a {
+  font-family: 'Open Sans', sans-serif;
+}
+.pricing-container .pricing-features .each h2 {
+  font-family: 'Montserrat', serif;
+}
+.works-filter li a > span {
+  font-family: 'Inconsolata', serif;
+}
+.works-item-inner h3 {
+  font-family: 'Montserrat', serif;
+}
+.works-item-inner p > span {
+  font-family: 'Inconsolata', serif;
+}
+.mean-container .mean-nav ul li a {
+  font-family: 'Raleway', sans-serif;
+}

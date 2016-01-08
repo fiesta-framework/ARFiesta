@@ -1,0 +1,28 @@
+.intro-05-wrap .standard-header{
+	padding: 20px 0;
+	background-color:rgba(255,255,255,0.6); 
+}
+.intro-05-wrap .standard-header .slogan h5{
+	margin-top: 25px;
+}
+.intro-05-wrap .mobile-toggle{
+	top: 55px;
+}
+.intro-05-wrap .mastfoot{
+	margin-top: 0;
+}
+.intro-05-caps > span{
+	font-size: 36px;
+	line-height: 43px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.intro-05-sub-caps > span{
+	font-style: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-top:solid 2px;
+	padding-top: 10px;
+}

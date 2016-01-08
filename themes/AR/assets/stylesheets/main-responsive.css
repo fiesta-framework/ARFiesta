@@ -1,0 +1,1610 @@
+/*MAIN-RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: SEVEN.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+
+/*Huge Displays*/
+@media (min-width: 3000px) {
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+}
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+
+}
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1199px) {
+	.container{
+	    max-width: 1159px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 50px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 90px;
+	}
+	.pad-bottom{
+		padding-bottom: 90px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 33.3% !important;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.container{
+	    max-width: 984px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 50px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 90px;
+	}
+	.pad-bottom{
+		padding-bottom: 90px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 33.3% !important;
+	}
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 990px) {
+	
+	.container{
+	    max-width: 950px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 50px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 90px;
+	}
+	.pad-bottom{
+		padding-bottom: 90px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 33.3% !important;
+	}
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	
+	.container{
+	    max-width: 760px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 50px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 90px;
+	}
+	.pad-bottom{
+		padding-bottom: 90px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	
+	.container{
+	    max-width: 728px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 90px;
+	}
+	.pad-bottom{
+		padding-bottom: 90px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+	
+	.container{
+	    max-width: 696px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+	
+	.container{
+	    max-width: 627px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	
+	.container{
+	    max-width: 600px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+	
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px)  {
+	
+	.container{
+	    max-width: 560px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+	
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	
+	.container{
+	    max-width: 440px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 45% !important;
+	}
+	#works-masonry .works-item{
+		width: 50% !important;
+	}
+}
+
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+	
+	.container{
+	    max-width: 384px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 90% !important;
+	}
+	#works-masonry .works-item{
+		width: 100% !important;
+	}
+}
+
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+	
+	.container{
+	    max-width: 355px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 88% !important;
+	}
+	#works-masonry .works-item{
+		width: 100% !important;
+	}
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	
+	.container{
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 86% !important;
+	}
+	#works-masonry .works-item{
+		width: 100% !important;
+	}
+}
+
+/*iPhone (5S, 5, 4S and 4) Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	
+	.container{
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		margin-top: 35px;
+	}
+	.add-bottom-half{
+		margin-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 35px;
+	}
+	.pad-bottom{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.sticky-border, .slant-bottom:after{
+		display: none;
+		visibility: hidden;
+	}
+	.mastfoot.space-top, .super-space{
+		margin-top: 0;
+	}
+	 .stats-count span{
+		font-size: 48px;
+		line-height:64px;
+	 }
+	.main-heading, .main-heading span, .intro-07 .welcome h1, 
+	.main-heading > span > em{
+		font-size: 24px;
+		line-height:48px;
+	}
+	.sub-heading, .sub-heading > span, .intro-01 .projects a, .intro-03 h1, 
+	.intro-02-caps > span, .works-filter li a > span, .works-filter li:after, .news-list h3{
+		font-size: 18px;
+		line-height:26px;
+	}
+	.promo-text, .intro-03 h2 > span, .contact .main-heading > span{
+		font-size: 14px;
+		line-height:21px;
+	}
+	.features-inner{
+		padding: 20px;
+	}
+	.owl-prev, .owl-next{
+		width: 20px;
+		height: 20px;
+	}
+	.owl-nav-sticky-wide .owl-prev{
+		left: 10px;
+	}
+	.owl-nav-sticky-wide .owl-next{
+		right: 10px;
+	}
+	.intro-01 .projects{
+		margin-top: 100px;
+	}
+
+	.intro-01 .projects a{
+		float: none;
+		margin-right: 0;
+		line-height: 36px;
+	}
+	.intro-08, .intro-04, .intro-03, .about, .pricing, .contact, .woks-head, .news{
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+	.intro-02-sub-caps > span, .intro-03 h2 > span{
+		border: none;
+	}
+	.pricing-container{
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	#works-masonry{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.works-item, #works-masonry-home .works-item{
+		width: 85% !important;
+	}
+	#works-masonry .works-item{
+		width: 100% !important;
+	}
+
+
+}
+
+
+

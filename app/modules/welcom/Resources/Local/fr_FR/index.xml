@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language_translation SYSTEM "../language_translation.dtd">
+<language_translation target_language="fr_FR">
+	<meta>
+	<creation author="Amine ABRI" date="30/11/2015" comment="creating this dictionary"/>
+	</meta>
+	<translations>
+		<translation key="hello.demo">Demo Test FR</translation> 		
+	</translations>
+</language_translation>

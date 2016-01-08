@@ -1,0 +1,59 @@
+.intro-07-wrap .standard-header{
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.intro-07-wrap .standard-header .slogan h5{
+	margin-top: 25px;
+}
+.intro-07-trans-bg{
+	background-color: rgba(255,255,255,0.9);
+}
+.intro-07 .welcome h1{
+	font-size: 48px;
+	line-height: 96px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.intro-07 .welcome h2 {
+}
+.intro-07 .welcome h2 > span{
+	font-size: 12px;
+	line-height: 19px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	border-top: solid 4px;
+	padding-top: 20px;
+}
+.intro-07 .welcome a:hover{
+}
+
+
+.agency-title{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.agency-title h3{
+	opacity: 0;
+	font-size: 16px;
+	line-height: 23px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.agency-title:hover{
+	background-color: rgba(255,255,255,0.7);
+}
+.agency-title:hover h3{
+	opacity: 1;
+}
+.intro-07 .welcome-stage{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

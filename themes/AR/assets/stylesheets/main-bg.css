@@ -1,0 +1,61 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: SEVEN.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------*/
+/* INTRO / HOME VARIANTS */
+/*--------------------------------------------------------------*/
+.intro-01-bg{
+	background-image:url('../images/showcase/01.jpg'); 
+}
+.intro-03-bg{
+	background-image:url('../images/bg/06.jpg'); 
+}
+.intro-07 .welcome-stage-bg-01{
+	background-image:url('../images/showcase/01.jpg'); 
+}
+.intro-07 .welcome-stage-bg-02{
+	background-image:url('../images/showcase/02.jpg'); 
+}
+.intro-07 .welcome-stage-bg-03{
+	background-image:url('../images/showcase/03.jpg'); 
+}
+
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+.stats-bg{
+	background-image:url('../images/bg/05.jpg'); 
+}
+.features-bg{
+	background-image:url('../images/bg/03.jpg'); 
+}
+.single-project-bg{
+	background-image:url('../images/bg/07.jpg'); 
+}
+.news-list-01:hover{
+	background-image:url('../images/news/01.jpg') !important; 
+}
+.news-list-02:hover{
+	background-image:url('../images/news/02.jpg') !important;  
+}
+.news-list-03:hover{
+	background-image:url('../images/news/03.jpg') !important;  
+}
+.news-list-04:hover{
+	background-image:url('../images/news/04.html') !important;  
+}
+
+/*--------------------------------------------------------------*/
+/* MISC ELEMENTS */
+/*--------------------------------------------------------------*/
+.menu-bg{
+	background: url('../images/menu.jpg'); 
+} 

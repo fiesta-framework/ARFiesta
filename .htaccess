@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+#IndexIgnore */*
+# Turn on the RewriteEngine
+RewriteEngine On
+#  Rules
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . public/index.php?$url=$1
+#RewriteRule ^(.+)$ public/index.php?url=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ public/index.php?url=$1 [QSA,L]
+
+# Empty Url
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^/?$ public/index.php

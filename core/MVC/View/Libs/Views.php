@@ -16,16 +16,20 @@ class Views {
 				$$key=$value2;
 			}
 		}
-		if(is_array($value)){
+		if(is_array($value))
+		{
 			//getFile
-			if($value['backend']){
+			if($value['backend'])
+			{
 				$themename = Config::get('themes.name');
 				
 				$simpleFile = Config::get('themes.path');
 				$simpleFile = str_replace('{themeName}', $themename, $simpleFile);
 				$smartyFile = Config::get('themes.path');
 				$smartyFile = str_replace('{themeName}', $themename, $smartyFile);
-			}else{
+			}
+			else
+			{
 				$themename =  Config::get('themes.nameFrontEnd');
 				
 				//PHP VIEW
@@ -36,12 +40,15 @@ class Views {
 				$smartyFile = Config::get('themes.pathFront');
 				$smartyFile = str_replace('{themeName}', $themename, $smartyFile);
 			}
+			//
 			$name		= str_replace('.', '/', $value['view']);
 			$simpleFile = str_replace('{viewName}', $name, $simpleFile);
 			$simpleFile = str_replace('{fileExtention}', "php", $simpleFile);
 			
 			$smartyFile = str_replace('{viewName}', $name, $smartyFile);
-			$smartyFile = str_replace('{fileExtention}', "tpl", $smartyFile);
+
+			// Fix the issue #2 of tpl extention
+			$smartyFile = str_replace('{fileExtention}', "tpl.php", $smartyFile);
 			//
 			$link1		= $simpleFile;
 			$link2		= $smartyFile;

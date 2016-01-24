@@ -30,15 +30,15 @@
 <div class="sticky-border sticky-border-right"></div>
 <div class="sticky-border sticky-border-bottom"></div>
 <div class="sticky-border sticky-border-left"></div>
-{include file='../../inc/navigation.tpl'}
+{include file='../../inc/navigation.tpl.php'}
 <!-- Master Wrap : starts -->
-{include file='../../inc/headerPage.tpl'}
+{include file='../../inc/headerPage.tpl.php'}
 <section id="mastwrap" class="mastwrap slant-bottom slant-bottom-white">
 	{block name=titlePage}{/block}
 	{block name=body}{/block}
 </section>
 <!-- Master Wrap : ends -->
-{include file='../../inc/footer.tpl'}
+{include file='../../inc/footer.tpl.php'}
 {block name=scriptFooter}
 	<script>
 	var links = "{Config::get('app.base_url')}themes/{Config::get('themes.nameFrontEnd')}/assets/"; 

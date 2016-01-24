@@ -1,5 +1,5 @@
 {* View file  : index.tpl *} 
-{extends file="../../base.tpl"} 
+{extends file="../../base.tpl.php"} 
 {block name=title} {$smarty.block.parent} 404{/block} 
 {block name=titlePage}
 <section id="about" class="about pad-bottom white-bg">	

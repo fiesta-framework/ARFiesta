@@ -31,15 +31,15 @@
 <div class="sticky-border sticky-border-right"></div>
 <div class="sticky-border sticky-border-bottom"></div>
 <div class="sticky-border sticky-border-left"></div>
-{include file='../../inc/navigation.tpl'}
-{include file='../../inc/header.tpl'}
+{include file='../../inc/navigation.tpl.php'}
+{include file='../../inc/header.tpl.php'}
 <section id="mastwrap" class="mastwrap">
 	<section id="intro" class="intro intro-07 pad-bottom intro-07-trans-bg fullheight">	
 		{block name=body}{/block}
 	</section>
 </section>
 <!-- Master Wrap : ends -->
-{include file='../../inc/footer.tpl'}
+{include file='../../inc/footer.tpl.php'}
 {block name=scriptFooter}
 	{Libs::js("{Config::get('app.base_url')}themes/{Config::get('themes.nameFrontEnd')}/assets/javascripts/libs/plugins.js",false)}
 	{Libs::js("{Config::get('app.base_url')}themes/{Config::get('themes.nameFrontEnd')}/assets/javascripts/custom/navmenu-init.js",false)}
